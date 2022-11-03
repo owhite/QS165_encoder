@@ -3192,7 +3192,7 @@
     (property "Value" "Conn_01x06" (id 1) (at 241.554 62.2299 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" (id 2) (at 239.014 60.96 0)
+    (property "Footprint" "Connector_JST:my_JST_1x06_P2.00mm_Vertical" (id 2) (at 239.014 60.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 239.014 60.96 0)
@@ -3263,7 +3263,7 @@
       (reference "J2") (unit 1) (value "Conn_01x10_Female") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical")
     )
     (path "/ee1d3956-2b26-4116-9888-5d1a66138202"
-      (reference "J3") (unit 1) (value "Conn_01x06") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical")
+      (reference "J3") (unit 1) (value "Conn_01x06") (footprint "Connector_JST:my_JST_1x06_P2.00mm_Vertical")
     )
     (path "/7d4300d2-37a7-4b79-b1d5-c65e1c7e75ea"
       (reference "J4") (unit 1) (value "Conn_01x02_Male") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
