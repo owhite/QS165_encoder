@@ -1127,6 +1127,8 @@
     )
   )
 
+  (gr_line (start 130.8 89.4) (end 149.4 64.5) (layer "B.Cu") (width 0.2) (tstamp 4b7d3b14-39f9-4d33-91cd-42a7f2a3a1a4))
+  (gr_line (start 129.7 60.8) (end 150.3 91.1) (layer "B.Cu") (width 0.2) (tstamp 9ce684b5-1379-4b7e-9bd2-d65b2b0cc20e))
   (gr_rect (start 114.3 83) (end 119.9 67.25) (layer "B.SilkS") (width 0.15) (fill none) (tstamp 1a36e37d-a0e4-4aa6-9dde-b808c54e4715))
   (gr_circle (center 105.9 72.7) (end 105.6 72.9) (layer "B.SilkS") (width 0.15) (fill none) (tstamp 517e138c-97ec-4c8c-97ed-f070b3781eb7))
   (gr_rect (start 142.9 72.1) (end 137.1 80.3) (layer "B.SilkS") (width 0.15) (fill none) (tstamp d95ff08f-660b-47b3-ae1d-6a55bd77117a))
@@ -1343,6 +1345,9 @@
   )
   (gr_text "Be sure to set:\nPreferences --> Origins & Axes --> toggle Display origin to {dblquote}Grid origin{dblquote}\nwhen moving encoder or board edges" (at 125 95.2) (layer "F.SilkS") (tstamp cc0b74fc-8650-4d11-8fc4-1c4ece1494a5)
     (effects (font (size 0.5 0.5) (thickness 0.05)) (justify left))
+  )
+  (gr_text "No way this will work. " (at 141.8 86.8) (layer "F.SilkS") (tstamp fd21204c-0236-4e09-8429-bf3af8100dea)
+    (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
 
   (segment (start 96.475 76.8) (end 97.5 76.8) (width 0.4) (layer "F.Cu") (net 1) (tstamp 47a94b6c-3964-4fc4-a0e9-8d99b332d6ed))
