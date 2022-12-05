@@ -2014,6 +2014,10 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 2be90632-23f9-41a2-941b-7f4ff4a0d2f5)
   )
+  (text "PINS 2 AND 5 INCORRECTLY LABELED!!!" (at 43.18 154.305 0)
+    (effects (font (size 2.032 2.032)) (justify left bottom))
+    (uuid 3d18bf5a-ab2e-45c5-b7d8-f4161bdc5ebc)
+  )
   (text "Differential opamp measuring the \nvoltage across the 10 thermistor \nwith gain 1 (check...) means that \nthe rest of the board is protected \nby the 100m and 4k7 impedances. \nWill be hard to kill anything through \nthese (the resistors may die...)"
     (at 17.78 137.16 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -2036,7 +2040,7 @@
     (uuid 95ccdcf3-7b04-475b-b71a-2cad074f7075)
   )
   (text "OPTIONAL FIT, \nDNP for full duplex on STM, \nFit for half duplex"
-    (at 100.33 102.87 180)
+    (at 100.33 102.87 0)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 97733f8a-f6b5-49f1-bf24-e937bdd2bb87)
   )
