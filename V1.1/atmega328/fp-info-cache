@@ -1,4 +1,18 @@
-20394530265863043
+20399549361647522
+431181015816
+431181015816
+<B>WS-TASV</B><BR> SMT Tact Switch 5x5 mm with ground terminal , 4 pins
+
+0
+6
+6
+431181015816
+monkey
+
+
+0
+0
+0
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -35223,6 +35237,13 @@ Surface mounted pin header SMD 2x40 2.54mm double row
 0
 80
 80
+Connector_PinHeader_2.54mm
+myPinHeader_1x02_P2.54mm_Vertical
+Through hole straight pin header, 1x02, 2.54mm pitch, single row
+Through hole pin header THT 1x02 2.54mm single row
+0
+2
+2
 Connector_PinSocket_1.00mm
 PinSocket_1x02_P1.00mm_Vertical
 Through hole straight socket strip, 1x02, 1.00mm pitch, single row (https://gct.co/files/drawings/bc065.pdf), script generated
@@ -41929,6 +41950,13 @@ Surface mounted socket strip SMD 2x40 2.54mm double row
 0
 80
 80
+Connector_PinSocket_2.54mm
+isp_6pin
+Through hole straight socket strip, 2x03, 2.54mm pitch, double cols (from Kicad 4.0.7), script generated
+Through hole socket strip THT 2x03 2.54mm double row
+0
+6
+6
 Connector_RJ
 RJ12_Amphenol_54601
 RJ12 connector  https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/c-bmj-0082.pdf
@@ -86050,10 +86078,3 @@ varistor SIOV
 0
 2
 2
-wurth_momentary
-436331045822
-WS-TUS-3.5x4.7 mm side push SMD Tact Switch with boss design, 4 pins
-
-0
-4
-4
