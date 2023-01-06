@@ -2335,7 +2335,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x04") (at 34.544 129.794 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 04013dca-8116-4a03-b1b1-6aad3eddb36d)
-    (property "Reference" "J?" (id 0) (at 36.83 129.7939 0)
+    (property "Reference" "J1" (id 0) (at 36.83 129.7939 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Conn_01x04" (id 1) (at 36.83 132.3339 0)
@@ -2372,7 +2372,7 @@
   (symbol (lib_id "Device:C_Small") (at 158.75 49.149 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 0e078ae9-8317-4ed9-87d9-5c2f38d357da)
-    (property "Reference" "C?" (id 0) (at 161.29 47.879 0)
+    (property "Reference" "C8" (id 0) (at 161.29 47.879 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (id 1) (at 161.29 50.419 0)
@@ -2448,7 +2448,7 @@
   (symbol (lib_id "power:GND") (at 140.843 60.96 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 1a70d9a7-cb73-4892-b131-273ff8ec7a67)
-    (property "Reference" "#PWR?" (id 0) (at 140.843 67.31 0)
+    (property "Reference" "#PWR0102" (id 0) (at 140.843 67.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 140.97 65.3542 0))
@@ -2486,7 +2486,7 @@
   (symbol (lib_id "power:+3V3") (at 130.683 32.639 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 37240edb-2cf8-4461-b033-a9a1e16326de)
-    (property "Reference" "#PWR?" (id 0) (at 130.683 36.449 0)
+    (property "Reference" "#PWR0107" (id 0) (at 130.683 36.449 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (id 1) (at 127.127 30.607 0))
@@ -2540,7 +2540,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x03") (at 54.864 118.618 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 56107381-a1b3-4be1-8d54-6548558abaee)
-    (property "Reference" "J?" (id 0) (at 57.404 117.3479 0)
+    (property "Reference" "J4" (id 0) (at 57.404 117.3479 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Conn_01x03" (id 1) (at 59.436 120.0149 0)
@@ -2582,7 +2582,7 @@
   (symbol (lib_id "power:GND") (at 158.75 53.721 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 68940270-0d02-41fa-b70d-b2c89618d224)
-    (property "Reference" "#PWR?" (id 0) (at 158.75 60.071 0)
+    (property "Reference" "#PWR0103" (id 0) (at 158.75 60.071 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 158.877 58.1152 0))
@@ -2614,7 +2614,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x07") (at 74.041 123.317 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 745777f8-386e-40f8-91e4-c09e2aa5a715)
-    (property "Reference" "J?" (id 0) (at 76.835 123.3169 0)
+    (property "Reference" "J5" (id 0) (at 76.835 123.3169 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Conn_01x07" (id 1) (at 77.089 124.5869 0)
@@ -2638,7 +2638,7 @@
   (symbol (lib_id "power:+5V") (at 158.75 44.323 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 7a386484-a636-4f6c-bbdf-3059185d06bf)
-    (property "Reference" "#PWR?" (id 0) (at 158.75 48.133 0)
+    (property "Reference" "#PWR0104" (id 0) (at 158.75 48.133 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (id 1) (at 158.75 38.735 0))
@@ -2654,7 +2654,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x02") (at 34.925 116.713 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 7a55b174-5cc7-4525-80d2-2644b42a21b5)
-    (property "Reference" "J?" (id 0) (at 37.465 117.9829 0)
+    (property "Reference" "J2" (id 0) (at 37.465 117.9829 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Conn_01x02" (id 1) (at 37.465 119.2529 0)
@@ -2705,7 +2705,7 @@
   (symbol (lib_id "power:GND") (at 122.174 95.885 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 867f3a2e-72e0-4b88-816f-d18f31d70483)
-    (property "Reference" "#PWR?" (id 0) (at 122.174 102.235 0)
+    (property "Reference" "#PWR0101" (id 0) (at 122.174 102.235 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 122.301 100.2792 0))
@@ -2863,7 +2863,7 @@
   (symbol (lib_id "power:+5V") (at 133.223 32.639 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid db2fb4f6-7319-4d19-8080-76be12a220c6)
-    (property "Reference" "#PWR?" (id 0) (at 133.223 36.449 0)
+    (property "Reference" "#PWR0108" (id 0) (at 133.223 36.449 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (id 1) (at 135.763 30.226 0))
@@ -2955,7 +2955,7 @@
   (symbol (lib_id "Sensor_Magnetic:AS5048A") (at 133.223 47.117 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid ec58b41e-a03c-43f9-8c18-2cd7e11a9cb6)
-    (property "Reference" "U?" (id 0) (at 148.59 42.7863 0))
+    (property "Reference" "U2" (id 0) (at 148.59 42.7863 0))
     (property "Value" "AS5048A" (id 1) (at 148.59 45.3263 0))
     (property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" (id 2) (at 133.223 66.167 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -3080,29 +3080,29 @@
     (path "/e278c541-ce7a-4dc1-a887-8b2e6e4c8eae"
       (reference "#PWR015") (unit 1) (value "GND") (footprint "")
     )
+    (path "/867f3a2e-72e0-4b88-816f-d18f31d70483"
+      (reference "#PWR0101") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/1a70d9a7-cb73-4892-b131-273ff8ec7a67"
+      (reference "#PWR0102") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/68940270-0d02-41fa-b70d-b2c89618d224"
+      (reference "#PWR0103") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/7a386484-a636-4f6c-bbdf-3059185d06bf"
+      (reference "#PWR0104") (unit 1) (value "+5V") (footprint "")
+    )
     (path "/00000000-0000-0000-0000-000062cb1d4c"
       (reference "#PWR0105") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-000062cd21e1"
       (reference "#PWR0106") (unit 1) (value "GND") (footprint "")
     )
-    (path "/1a70d9a7-cb73-4892-b131-273ff8ec7a67"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
     (path "/37240edb-2cf8-4461-b033-a9a1e16326de"
-      (reference "#PWR?") (unit 1) (value "+3V3") (footprint "")
-    )
-    (path "/68940270-0d02-41fa-b70d-b2c89618d224"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/7a386484-a636-4f6c-bbdf-3059185d06bf"
-      (reference "#PWR?") (unit 1) (value "+5V") (footprint "")
-    )
-    (path "/867f3a2e-72e0-4b88-816f-d18f31d70483"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0107") (unit 1) (value "+3V3") (footprint "")
     )
     (path "/db2fb4f6-7319-4d19-8080-76be12a220c6"
-      (reference "#PWR?") (unit 1) (value "+5V") (footprint "")
+      (reference "#PWR0108") (unit 1) (value "+5V") (footprint "")
     )
     (path "/2c89c050-b532-4895-8f21-83a761d812fb"
       (reference "C1") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0603_1608Metric")
@@ -3126,7 +3126,7 @@
       (reference "C7") (unit 1) (value "20p") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/0e078ae9-8317-4ed9-87d9-5c2f38d357da"
-      (reference "C?") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0402_1005Metric")
+      (reference "C8") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/9d4896c0-71c0-408c-a483-cfbfb4cd54b4"
       (reference "D1") (unit 1) (value "BZV55C6V2") (footprint "Diode_SMD:D_MiniMELF")
@@ -3137,20 +3137,20 @@
     (path "/00000000-0000-0000-0000-000062c98da7"
       (reference "ISP1") (unit 1) (value "Conn_02x03_Top_Bottom") (footprint "Connector_PinSocket_2.54mm:isp_6pin")
     )
+    (path "/04013dca-8116-4a03-b1b1-6aad3eddb36d"
+      (reference "J1") (unit 1) (value "Conn_01x04") (footprint "")
+    )
+    (path "/7a55b174-5cc7-4525-80d2-2644b42a21b5"
+      (reference "J2") (unit 1) (value "Conn_01x02") (footprint "")
+    )
     (path "/55f70e6c-6342-4715-b8ba-c17f5a663a44"
       (reference "J3") (unit 1) (value "Conn_01x02_Male") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
     )
-    (path "/04013dca-8116-4a03-b1b1-6aad3eddb36d"
-      (reference "J?") (unit 1) (value "Conn_01x04") (footprint "")
-    )
     (path "/56107381-a1b3-4be1-8d54-6548558abaee"
-      (reference "J?") (unit 1) (value "Conn_01x03") (footprint "")
+      (reference "J4") (unit 1) (value "Conn_01x03") (footprint "")
     )
     (path "/745777f8-386e-40f8-91e4-c09e2aa5a715"
-      (reference "J?") (unit 1) (value "Conn_01x07") (footprint "")
-    )
-    (path "/7a55b174-5cc7-4525-80d2-2644b42a21b5"
-      (reference "J?") (unit 1) (value "Conn_01x02") (footprint "")
+      (reference "J5") (unit 1) (value "Conn_01x07") (footprint "")
     )
     (path "/38403b41-e4dd-4954-8433-1dfbff3a0ed0"
       (reference "JP1") (unit 1) (value "SolderJumper_2_Open") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm")
@@ -3171,7 +3171,7 @@
       (reference "U1") (unit 1) (value "ATmega328P-AU") (footprint "Package_QFP:TQFP-32_7x7mm_P0.8mm")
     )
     (path "/ec58b41e-a03c-43f9-8c18-2cd7e11a9cb6"
-      (reference "U?") (unit 1) (value "AS5048A") (footprint "Package_SO:TSSOP-14_4.4x5mm_P0.65mm")
+      (reference "U2") (unit 1) (value "AS5048A") (footprint "Package_SO:TSSOP-14_4.4x5mm_P0.65mm")
     )
     (path "/00000000-0000-0000-0000-000062c95262"
       (reference "Y1") (unit 1) (value "Crystal") (footprint "Crystal:Crystal_SMD_5032-2Pin_5.0x3.2mm")
