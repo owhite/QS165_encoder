@@ -1,0 +1,45 @@
+#include <SoftwareSerial.h>
+
+#define PinB0 8
+#define PinB1 9
+#define PinB2 10
+#define PinB3 11
+#define PinB4 12
+#define PinB5 13
+
+#define PinC0 14
+#define PinC1 15
+#define PinC2 16
+#define PinC3 17
+#define PinC4 18
+#define PinC5 19
+
+#define PinD0 0
+#define PinD1 1
+#define PinD2 2
+#define PinD3 3
+#define PinD4 4
+#define PinD5 5
+#define PinD6 6
+#define PinD7 7
+
+const byte rxPin = 2;
+const byte txPin = 3;
+
+SoftwareSerial Serial2 (rxPin, txPin);
+
+void setup() {
+  delay(2000);
+
+  Serial.begin(9600);
+  Serial2.begin(9600);
+}
+
+void loop() {
+
+  if (Serial2.available()) {
+    int inByte = Serial2.read();
+    Serial.write(inByte);
+  }
+
+}
