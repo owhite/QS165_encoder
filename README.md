@@ -1,6 +1,6 @@
-# QS165 Motor Encoder with hall output
+# QS165 motor magentic encoder development
 
-Project area for an encoder retrofit for the QS165 motor with a magnetic sensor that produces hall output. 
+Project area for encoders retrofit on the QS165 motor. 
 
 <img src="pics/PCB_pic.png" title="Encoder PCB">
 
