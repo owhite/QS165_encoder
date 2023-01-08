@@ -12,9 +12,10 @@ Notes: Never really got this to work.
 
 And, it's not clear the clock speed would ever be fast enough for SPI communications and reasonable output
 
-<img src="pics/PCB_pic.png" title="Encoder PCB">
-
 ## An attempt to create line isolation for AS5048 to run based on an atmega328p [[LINK](AS5048_isolation/README.md)]
 
 Notes:
 Was not bad, just sort of complicated to use SPI with ESC. 
+
+<img src="pics/PCB_pic.png" title="Encoder PCB">
+
