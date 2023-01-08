@@ -1,0 +1,152 @@
+-
+|   HYS: 0
+|   ABIRES: 0
+==============================
+359.93
+-- SETTINGS2 Register: 
+|   Reading Error: 0
+|   UVWPP: 7
+|   HYS: 0
+|   ABIRES: 0
+==============================
+359.93
+-- SETTINGS2 Register: 
+|   Reading Error: 0
+|   UVWPP: 7
+|   HYS: 0
+|   ABIRES: 0
+==============================
+359.93
+-----------
+
+
+
+
+-----BEGIN------
+======== AS5X47 Debug ========
+------- ERRFL Register :
+   Reading Error: 0
+   FRERR: 0
+   INVCOMM: 0
+   PARERR: 0
+
+------- PROG Register: 
+|   Reading Error: 0
+|   PROGEN: 0
+|   OTPREF: 0
+|   PROGOTP: 0
+|   PROVER: 0
+|
+|------- DIAAGC Register: 
+|   Reading Error: 0
+|   AGC: 255
+|   LF: 1
+|   COF: 0
+|   MAGH: 0
+|   MAGL: 1
+|
+|------- MAG Register: 
+|   Reading Error: 0
+|   CMAG: 6
+|
+|------- ANGLE Register: 
+|   Reading Error: 0
+|   CORDICANG: 9345
+|
+|------- ANGLECOM Register: 
+|   Reading Error: 0
+|   DAECANG: 15315
+|
+|------- ZPOSM Register: 
+|   Reading Error: 0
+|   ZPOSM: 0
+|
+|------- ZPOSL Register: 
+|   Reading Error: 0
+|   ZPOSL: 0
+|   COMP_L_ERROR_EN: 0
+|   COMP_H_ERROR_EN: 0
+|
+|------- SETTINGS1 Register: 
+|   Reading Error: 0
+|   NOISESET: 0
+|   DIR: 0
+|   UVW_ABI: 0
+|   DAECDIS: 0
+|   ABIBIN: 0
+|   DATASELECT: 0
+|   PWMON: 0
+|
+|------- SETTINGS2 Register: 
+|   Reading Error: 0
+|   UVWPP: 6
+|   HYS: 0
+|   ABIRES: 0
+==============================
+-----DONE------
+
+
+
+
+-----------
+======== AS5X47 Debug ========
+------- ERRFL Register :
+   Reading Error: 0
+   FRERR: 0
+   INVCOMM: 0
+   PARERR: 0
+
+------- PROG Register: 
+|   Reading Error: 0
+|   PROGEN: 0
+|   OTPREF: 0
+|   PROGOTP: 0
+|   PROVER: 0
+|
+|------- DIAAGC Register: 
+|   Reading Error: 0
+|   AGC: 255
+|   LF: 1
+|   COF: 0
+|   MAGH: 0
+|   MAGL: 1
+|
+|------- MAG Register: 
+|   Reading Error: 0
+|   CMAG: 5
+|
+|------- ANGLE Register: 
+|   Reading Error: 0
+|   CORDICANG: 3125
+|
+|------- ANGLECOM Register: 
+|   Reading Error: 0
+|   DAECANG: 411
+|
+|------- ZPOSM Register: 
+|   Reading Error: 0
+|   ZPOSM: 0
+|
+|------- ZPOSL Register: 
+|   Reading Error: 0
+|   ZPOSL: 0
+|   COMP_L_ERROR_EN: 0
+|   COMP_H_ERROR_EN: 0
+|
+|------- SETTINGS1 Register: 
+|   Reading Error: 0
+|   NOISESET: 0
+|   DIR: 0
+|   UVW_ABI: 1
+|   DAECDIS: 0
+|   ABIBIN: 0
+|   DATASELECT: 0
+|   PWMON: 0
+|
+|------- SETTINGS2 Register: 
+|   Reading Error: 0
+|   UVWPP: 7
+|   HYS: 0
+|   ABIRES: 0
+==============================
+45.02

@@ -1,5 +1,3 @@
-#include <AS5048A.h>
-
 #define PinB0 8
 #define PinB1 9
 #define PinB2 10
@@ -23,27 +21,18 @@
 #define PinD6 6
 #define PinD7 7
 
-AS5048A angleSensor(PinB1, true);
+#define LED2 PinD5
 
 int led_state = 0;
-int count = 0;
+
 void setup() {
-  delay(2000);
-
-  pinMode(PinD5,OUTPUT);
-
-  angleSensor.begin();
-
-  Serial.begin(9600);
+  // initialize digital pin LED_BUILTIN as an output.
+  pinMode(LED2, OUTPUT);
 }
 
 void loop() {
-
-  led_state =! led_state;
-
-  float val = angleSensor.getRotationInDegrees();
-
-  int x = int(val);
-  analogWrite(PinD5, map(x, 0, 360, 0, 255));
-  // analogWrite(PinD5, int(val));
+  digitalWrite(LED2, HIGH);
+  delay(1);                
+  digitalWrite(LED2, LOW); 
+  delay(1);                
 }

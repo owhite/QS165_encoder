@@ -1854,6 +1854,11 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 4de15cac-38fe-4762-81e6-12d9a6889367)
   )
+  (text "Notes:\nNever really got this to work. \ndecoupling caps werent doing their job on original design which could be the cause;\noriginal xtal just didnt work;\nthis may have resulted in serial writing bad characters;\nand programming problems. \n\nIt's not clear the clock speed would ever be fast enough for\nSPI communications and reasonable output\n\n"
+    (at 87.757 124.841 0)
+    (effects (font (size 1 1)) (justify left bottom))
+    (uuid 68025dbc-ec40-40a0-9846-ab01e77d0395)
+  )
 
   (global_label "SND" (shape input) (at 92.71 37.211 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
