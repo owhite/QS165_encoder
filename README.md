@@ -11,6 +11,7 @@ Notes: Never really got this to work.
 * and programming problems. 
 
 And, it's not clear the clock speed would ever be fast enough for SPI communications and reasonable output
+Note also -- the PCB was set up for 5v. 
 
 ## An attempt to create line isolation for AS5048 to run based on an atmega328p [[LINK](AS5048_isolation/README.md)]
 

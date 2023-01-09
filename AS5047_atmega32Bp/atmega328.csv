@@ -1,0 +1,13 @@
+Comment,Designator,Footprint,LCSC
+"100n","C1","Capacitor_SMD:C_0603_1608Metric","C346191"
+"4.7","C2","Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A","C110055"
+"100n","C3,C4,C5,C8","Capacitor_SMD:C_0402_1005Metric","C1525"
+"20p","C6,C7","Capacitor_SMD:C_0402_1005Metric","C76959"
+"BZV55C6V2","D1","Diode_SMD:D_MiniMELF","C266263"
+"RED_LED","D2","LED_SMD:LED_0603_1608Metric","C90692"
+"Si2319CDS","Q1","Package_TO_SOT_SMD:SOT-23","C558254"
+"100k","R1","Resistor_SMD:R_0603_1608Metric","C14675"
+"10k","R2","Resistor_SMD:R_0603_1608Metric","C98220"
+"20k","R3","Resistor_SMD:R_0603_1608Metric","C365403"
+"ATmega328P-AU","U1","Package_QFP:TQFP-32_7x7mm_P0.8mm","C14877"
+"AS5047D","U2","Package_SO:TSSOP-14_4.4x5mm_P0.65mm",""
