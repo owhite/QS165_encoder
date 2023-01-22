@@ -1,4 +1,4 @@
-# QS165 motor magentic encoder development
+# QS165 motor magentic encoder with hall output
 
 <img src="pics/final_PCB.png" title="Encoder PCB">
 
@@ -6,7 +6,7 @@
 
 This encoder uses an AS5047 to generates UVW output and is programmable with an external CPU. 
 
-This is unnecessarily expensive requiring purchase of a custum PCB, and a teensy to program the board. This is unnecessarily complicated in that it requires a custom programmer dongle, common bench testing equipment, assembling a board, and knowledge of programming. On the other hand I'm not aware of a lot of alternatives. 
+This is unnecessarily expensive requiring purchase of a custum PCB and a teensy to program the board. It is unnecessarily complicated in that it requires a custom programmer dongle, common bench testing equipment, assembling a board, and knowledge of programming. On the other hand I'm not aware of a lot of alternatives. 
 
 ### **Acknowledgement:**
 * Thanks to [CircularBuffer](https://github.com/CircularBuffer/AS5047P) for code to OTP burn the AS5047 non-volatile memory!
