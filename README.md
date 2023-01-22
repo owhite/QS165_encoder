@@ -21,7 +21,7 @@ main.ino uses [this code](https://github.com/CircularBuffer/AS5047P) to write no
 * Confirm the initial outputs of the AS5047 with an oscilloscope
 
 ## Programming
-Note that OTP programming definitely means you get ** one time ** to program the chip so be careful. 
+Note that OTP programming definitely means you get **one time** to program the chip so be careful. 
 
 * Code to run on teensy is using the platformio enivoronment located [here](https://github.com/owhite/QS165_encoder/tree/main/FIRMWARE/encoder)
 * Review [main.ino](https://github.com/owhite/QS165_encoder/tree/main/FIRMWARE/encoder/src/main.ino) carefully to understand how variables are sent to the AS5047 and the program flow. 
