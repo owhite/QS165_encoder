@@ -2,7 +2,7 @@
 
 <img src="pics/final_PCB.png" title="Encoder PCB">
 
-## An encoder retrofit for the QS165 motor.
+## An encoder retrofit for the QS165 motor [[See this link](AS5048_extburn/README.md)].**
 
 This encoder uses an AS5047 to generates UVW output and is programmable with an external CPU. 
 
