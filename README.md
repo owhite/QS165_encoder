@@ -31,7 +31,7 @@ Note that OTP programming definitely means you get **one time** to program the c
 * Load code on teensy board
 * Connect teensy to encoder board using programming-dongle
 * Start serial terminal
-* While program is running, review the program is effectively commicating with the encoder board
+* While program is running, review the program is effectively communicating with the encoder board
 * Confirm you like the actual output of the pins on encoder board
 * Entering single characters into the serial input gets ready for the burn
 * Typing anything besides "x" shows you serial input is working
