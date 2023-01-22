@@ -36,11 +36,11 @@ Note that OTP programming definitely means you get ** one time ** to program the
 * Enter "x" when youre ready to burn
 
 ## Examples of other attempts to create an encoder
-** Attempt: AS5048 with line isolation [[LINK](AS5048_isolation/README.md)] **
+### **Attempt: AS5048 with line isolation [[LINK](AS5048_isolation/README.md)].**
 
 Note: was not bad, just sort of complicated to use SPI with ESC.
 
-** Attempt: atmega328p to AS5048 [[LINK](AS5048_atmega328p/README.md)] **
+### **Attempt: atmega328p to AS5048 [[LINK](AS5048_atmega328p/README.md)].**
 
 Notes: Never really got this to work. 
 * decoupling caps werent doing their job on original design which could be the cause;
@@ -52,8 +52,7 @@ And, it's not clear the clock speed would ever be fast enough for SPI communicat
 
 PCB was set up for 5v. 
 
-** Attempt: AS5047 with on board CPU [[LINK](AS5047_atmega328p/README.md)] ** 
-
+### **Attempt: AS5047 with on board CPU [[LINK](AS5047_atmega328p/README.md)].** 
 This actually generated some reasonable output, but the downside it required the atmega to push SPI instructions to the AS5047. 
 
 
