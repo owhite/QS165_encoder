@@ -6,9 +6,11 @@
 
 This encoder uses an AS5047 to generates UVW output and is programmable with an external CPU. 
 
-This is unnecessarily expensive requiring purchase of a custum PCB, a custom programmer dongle, and a teensy to program the board. And you'll need common bench testing equipment. On the other hand I'm not aware of a lot of alternatives. 
+This is unnecessarily expensive requiring purchase of a custum PCB, and a teensy to program the board. This is unnecessarily complicated in that it requires a custom programmer dongle, common bench testing equipment, assembling a board, and knowledge of programming. On the other hand I'm not aware of a lot of alternatives. 
 
-main.ino uses [this code](https://github.com/CircularBuffer/AS5047P) to write non-volatile memory of AS5047. Thank you CircularBuffer! 
+** Acknowledgement: **
+* main.ino uses [this code](https://github.com/CircularBuffer/AS5047P) to write non-volatile memory of AS5047. Thank you CircularBuffer!
+* [David Molony](https://github.com/davidmolony) kindly helped with some development
 
 ## Schematic
 <img src="pics/schematic.png" title="Schematic">
