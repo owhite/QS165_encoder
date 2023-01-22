@@ -23,14 +23,16 @@
 #define PinD6 6
 #define PinD7 7
 
-AS5048A angleSensor(PinB1, true);
+
+// AS5048A angleSensor(PinB1, true);
+AS5048A angleSensor(10, false);
 
 int led_state = 0;
 int count = 0;
 void setup() {
-  delay(2000);
+  delay(100);
 
-  pinMode(PinD5,OUTPUT);
+  pinMode(13,OUTPUT);
 
   angleSensor.begin();
 
@@ -42,8 +44,10 @@ void loop() {
   led_state =! led_state;
 
   float val = angleSensor.getRotationInDegrees();
+  delay(100);
+  Serial.println(val);
 
   int x = int(val);
-  analogWrite(PinD5, map(x, 0, 360, 0, 255));
+  // analogWrite(PinD5, map(x, 0, 360, 0, 255));
   // analogWrite(PinD5, int(val));
 }

@@ -1,10 +1,46 @@
 # QS165 motor magentic encoder development
 
-Project area for encoders retrofit on the QS165 motor. 
+<img src="pics/final_PCB.png" title="Encoder PCB">
 
-<img src="pics/PCB_pic.png" title="Encoder PCB">
+## An encoder retrofit for the QS165 motor.
 
-## Attempt: atmega328p to AS5048 [[LINK](AS5048_atmega328p/README.md)]
+This encoder uses an AS5047 to generates UVW output and is programmable with an external CPU. 
+
+This is unnecessarily expensive requiring purchase of a custum PCB, a custom programmer dongle, and a teensy to program the board. And you'll need common bench testing equipment. On the other hand I'm not aware of a lot of alternatives. 
+
+main.ino uses [this code](https://github.com/CircularBuffer/AS5047P) to write non-volatile memory of AS5047. Thank you CircularBuffer! 
+
+## Schematic
+<img src="pics/schematic.png" title="Schematic">
+
+## Board testing
+* Order and construct [this kicad board](AS5048_extburn/README.md)
+* Create the programming dongle shown below
+* Select between 3.3V versus 5V operation with solder jumper. 
+* Connect up up the finished PCB on the bench or motor
+* Confirm the initial outputs of the AS5047 with an oscilloscope
+
+## Programming
+Note that OTP programming definitely means you get *one time* to program the chip so be careful. 
+
+* Code variant located [here](https://github.com/owhite/QS165_encoder/tree/main/FIRMWARE/encoder)
+* Review [the code](https://github.com/owhite/QS165_encoder/tree/main/FIRMWARE/encoder/src/main.ino) carefully to understand how variables are sent to the AS5047 and the program flow. 
+* You should not need to edit variables needed for the AS5047 in main.ino, but you may be using this, for example, with a motor with different polepairs
+* Load code on teensy board
+* Connect teensy to encoder board using programming-dongle
+* Start serial terminal
+* While program is running, review the program is effectively commicating with the encoder board
+* Confirm you like the output of the pins on encoder board
+* Entering single characters into the serial input gets ready for the burn
+* Typing anything besides "x" shows you serial input is working
+* Enter "x" when youre ready to burn
+
+## Examples of other attempts to create an encoder
+* Attempt: AS5048 with line isolation [[LINK](AS5048_isolation/README.md)] *
+
+Note: was not bad, just sort of complicated to use SPI with ESC.
+
+* Attempt: atmega328p to AS5048 [[LINK](AS5048_atmega328p/README.md)] * 
 
 Notes: Never really got this to work. 
 * decoupling caps werent doing their job on original design which could be the cause;
@@ -13,14 +49,11 @@ Notes: Never really got this to work.
 * and programming problems. 
 
 And, it's not clear the clock speed would ever be fast enough for SPI communications and reasonable output
-Note also -- the PCB was set up for 5v. 
 
-## AS5048 with line isolation [[LINK](AS5048_isolation/README.md)]
+PCB was set up for 5v. 
 
-Notes:
-Was not bad, just sort of complicated to use SPI with ESC.
-
-## AS5047 -> hall out [[LINK](AS5047_atmega328p/README.md)]
+* Attempt: AS5047 with on board CPU [[LINK](AS5047_atmega328p/README.md)] * 
+This actually generated some reasonable output, but the downside it required the atmega to push SPI instructions to the AS5047. 
 
 
 

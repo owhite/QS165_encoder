@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "raygun-rescue")(type "Legacy")(uri "${KIPRJMOD}/atmega328-rescue.lib")(options "")(descr ""))
+  (lib (name "atmega328-rescue")(type "Legacy")(uri "${KIPRJMOD}/atmega328-rescue.lib")(options "")(descr ""))
+)
