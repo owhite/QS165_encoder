@@ -25,7 +25,7 @@ This is unnecessarily expensive requiring purchase of a custum PCB, and a teensy
 ## Programming
 Note that OTP programming definitely means you get **one time** to program the chip so be careful. 
 
-* Code to run on teensy is using the platformio enivoronment located [here](https://github.com/owhite/QS165_encoder/tree/main/FIRMWARE/encoder)
+* Platformio environment required to install teensy [code](https://github.com/owhite/QS165_encoder/tree/main/FIRMWARE/encoder)
 * Review [main.ino](https://github.com/owhite/QS165_encoder/tree/main/FIRMWARE/encoder/src/main.ino) carefully to understand how variables are sent to the AS5047 and the program flow. 
 * Default variables for QS165 are set in main.ino, salt to taste if you have something else
 * Load code on teensy board
