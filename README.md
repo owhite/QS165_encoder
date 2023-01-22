@@ -35,6 +35,13 @@ Note that OTP programming definitely means you get **one time** to program the c
 * Typing anything besides "x" shows you serial input is working
 * Enter "x" when youre ready to burn
 
+## Programming hardware
+<img src="pics/dongle_probe.png" title="Encoder programmer with scope probe">
+An example of programming a prototype board with a teensy 3.6, ribbon cable and 6 pin connector. 
+
+<img src="pics/dongle_pogo.png" title="Encoder programmer with pogo pins">
+Pogo pins may be helpful for making quick connections to the board. 
+
 ## Examples of other attempts to create an encoder
 ### **Attempt: AS5048 with line isolation [[LINK](AS5048_isolation/README.md)].**
 
