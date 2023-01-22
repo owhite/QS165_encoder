@@ -8,7 +8,7 @@ This encoder uses an AS5047 to generates UVW output and is programmable with an 
 
 This is unnecessarily expensive requiring purchase of a custum PCB, and a teensy to program the board. This is unnecessarily complicated in that it requires a custom programmer dongle, common bench testing equipment, assembling a board, and knowledge of programming. On the other hand I'm not aware of a lot of alternatives. 
 
-### ** Acknowledgement: **
+### **Acknowledgement:**
 * Thanks to [CircularBuffer](https://github.com/CircularBuffer/AS5047P) for code to OTP burn the AS5047 non-volatile memory!
 * [David Molony](https://github.com/davidmolony) kindly helped with some development
 
