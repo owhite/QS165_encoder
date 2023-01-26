@@ -2,6 +2,21 @@
 
 <img src="pics/final_PCB.png" title="Encoder PCB">
 
+st=>start: Start:>http://www.google.com[blank]
+e=>end:>http://www.google.com
+op1=>operation: My Operation
+sub1=>subroutine: My Subroutine
+cond=>condition: Yes
+or No?:>http://www.google.com
+io=>inputoutput: catch something...
+para=>parallel: parallel tasks
+
+st->op1->cond
+cond(yes)->io->e
+cond(no)->para
+para(path1, bottom)->sub1(right)->op1
+para(path2, top)->op1
+
 ## An encoder retrofit for the QS165 motor [[See this link](AS5048_extburn/README.md)].
 
 This encoder uses an AS5047 to generates UVW output and is programmable with an external CPU. 
