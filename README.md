@@ -6,6 +6,7 @@
 
 <img src="pics/final_PCB.png" title="Encoder PCB">
 
+```flowchart
 st=>start: Start:>http://www.google.com[blank]
 e=>end:>http://www.google.com
 op1=>operation: My Operation
@@ -20,6 +21,7 @@ cond(yes)->io->e
 cond(no)->para
 para(path1, bottom)->sub1(right)->op1
 para(path2, top)->op1
+```
 
 ## An encoder retrofit for the QS165 motor [[See this link](AS5048_extburn/README.md)].
 
