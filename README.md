@@ -2,6 +2,20 @@
 
 <img src="pics/final_PCB.png" title="Encoder PCB">
 
+```mermaid
+sequenceDiagram
+    participant dotcom
+    participant iframe
+    participant viewscreen
+    dotcom->>iframe: loads html w/ iframe url
+    iframe->>viewscreen: request template
+    viewscreen->>iframe: html & javascript
+    iframe->>dotcom: iframe ready
+    dotcom->>iframe: set mermaid data on iframe
+    iframe->>iframe: render mermaid
+```
+
+
 ## An encoder retrofit for the QS165 motor [[See this link](AS5048_extburn/README.md)].
 
 This encoder uses an AS5047 to generates UVW output and is programmable with an external CPU. 
