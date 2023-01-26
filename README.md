@@ -3,6 +3,12 @@
 <img src="pics/final_PCB.png" title="Encoder PCB">
 
 ```mermaid
+stateDiagram-v2
+    [*] --> First
+    state First {
+        [*] --> second
+        second --> [*]
+    }
 sequenceDiagram
     participant dotcom
     participant iframe
