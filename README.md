@@ -1,5 +1,3 @@
-# [flowchart.js](http://flowchart.js.org)
-
 # QS165 motor magentic encoder with hall output
 
 <img src="pics/final_PCB.png" title="Encoder PCB">
