@@ -2,16 +2,6 @@
 
 <img src="pics/final_PCB.png" title="Encoder PCB">
 
-```mermaid
-stateDiagram-v2
-    [*] --> First
-    state First {
-        [*] --> second
-        second --> [*]
-    }
-```
-
-
 ## An encoder retrofit for the QS165 motor [[See this link](AS5048_extburn/README.md)].
 
 This encoder uses an AS5047 to generates UVW output and is programmable with an external CPU. 
