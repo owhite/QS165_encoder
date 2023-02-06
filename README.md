@@ -29,7 +29,15 @@ The AS5047 uses one time progromming to change some of it's registers permanantl
 As [CircularBuffer](https://github.com/CircularBuffer/AS5047P) points out, that code will probably work on a number of platforms. This works for me:
 
 * Review [main.ino](https://github.com/owhite/QS165_encoder/tree/main/FIRMWARE/encoder/src/main.ino) carefully to understand how variables are sent to the AS5047 and the program flow
-* Default variables for QS165 are set in main.ino, salt to taste if you have something else
+* Default variables for QS165 are set in main.ino using the lines:
+
+```
+  AS5047P_SetFieldInRegister(&encInstanceA, AS5047P_SETTINGS1, AS5047P_SETTINGS1_PWMON, 1);
+  AS5047P_SetFieldInRegister(&encInstanceA, AS5047P_SETTINGS1, AS5047P_SETTINGS1_UVW_ABI, 1);
+  AS5047P_SetFieldInRegister(&encInstanceA, AS5047P_SETTINGS2, AS5047P_SETTINGS2_UVWPP, 6);
+```
+
+* salt to taste if you have something else
 * Load code on teensy board using the platformio environment to install [code](https://github.com/owhite/QS165_encoder/tree/main/FIRMWARE/encoder)
 * Once programmed, connect teensy to encoder board using programming-dongle
 * Start up a serial terminal
