@@ -37,7 +37,9 @@ As [CircularBuffer](https://github.com/CircularBuffer/AS5047P) points out, that 
   AS5047P_SetFieldInRegister(&encInstanceA, AS5047P_SETTINGS2, AS5047P_SETTINGS2_UVWPP, 6);
 ```
 
-* salt to taste if you have something else
+Note: the QS165 has 7 polepairs, and according to the AS5047 docs you pass it a '6'. 
+
+* Salt to taste if you have something else
 * Load code on teensy board using the platformio environment to install [code](https://github.com/owhite/QS165_encoder/tree/main/FIRMWARE/encoder)
 * Once programmed, connect teensy to encoder board using programming-dongle
 * Start up a serial terminal
