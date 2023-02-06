@@ -5,7 +5,7 @@
 
 ## An encoder retrofit for the QS165 motor [[See this link](AS5048_extburn/README.md)].
 
-This encoder is designed as a drop in replacement to the QS165 motor and uses an AS5047 to generates UVW output. In order for this to work you'll need to program the AS5047 with an external CPU. So basically this is ** unnecessarily expensive requiring purchase of a custum PCB and a teensy to program the board. It is unnecessarily complicated in that it requires a custom programmer dongle, common bench testing equipment, assembling a board, and knowledge of programming. **
+This encoder is designed as a drop in replacement to the QS165 motor and uses an AS5047 to generates UVW output. In order for this to work you'll need to program the AS5047 with an external CPU. So basically this is **unnecessarily expensive requiring purchase of a custum PCB and a teensy to program the board. It is unnecessarily complicated in that it requires a custom programmer dongle, common bench testing equipment, assembling a board, and knowledge of programming**. 
 
 On the other hand I'm not aware of a lot of alternatives. 
 
