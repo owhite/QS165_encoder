@@ -5,49 +5,51 @@
 
 ## An encoder retrofit for the QS165 motor [[See this link](AS5048_extburn/README.md)].
 
-This encoder uses an AS5047 to generates UVW output and is programmable with an external CPU. 
+This encoder is designed as a drop in replacement to the QS165 motor and uses an AS5047 to generates UVW output. In order for this to work you'll need to program the AS5047 with an external CPU. So basically this is ** unnecessarily expensive requiring purchase of a custum PCB and a teensy to program the board. It is unnecessarily complicated in that it requires a custom programmer dongle, common bench testing equipment, assembling a board, and knowledge of programming. **
 
-This is unnecessarily expensive requiring purchase of a custum PCB and a teensy to program the board. It is unnecessarily complicated in that it requires a custom programmer dongle, common bench testing equipment, assembling a board, and knowledge of programming. On the other hand I'm not aware of a lot of alternatives. 
+On the other hand I'm not aware of a lot of alternatives. 
 
 ### **Acknowledgement:**
-* Thanks to [CircularBuffer](https://github.com/CircularBuffer/AS5047P) for code to OTP burn the AS5047 non-volatile memory!
-* [David Molony](https://github.com/davidmolony) kindly helped with some development
+* [CircularBuffer](https://github.com/CircularBuffer/AS5047P) supplied code to burn the AS5047 non-volatile memory.
+* [David Molony](https://github.com/davidmolony) kindly helped with some development of early boards. 
 
 ## Schematic
 <img src="pics/schematic.png" title="Schematic">
 
-## Board testing
+## To build board and test
 * Order and construct [this kicad board](AS5047_extburn/README.md)
 * Create the programming dongle shown below
-* Select between 3.3V versus 5V operation with solder jumper. 
+* Select between 3.3V versus 5V operation with solder jumper
 * Connect up up the finished PCB on the bench or motor
 * Confirm the initial outputs of the AS5047 with an oscilloscope
 
 ## Programming
-Note that OTP programming definitely means you get **one time** to program the chip so be careful. 
+The AS5047 uses one time progromming to change some of it's registers permanantly. Note that programming definitely means you get **one time** to program the chip -- so be careful. 
 
-* Platformio environment required to install teensy [code](https://github.com/owhite/QS165_encoder/tree/main/FIRMWARE/encoder)
-* Review [main.ino](https://github.com/owhite/QS165_encoder/tree/main/FIRMWARE/encoder/src/main.ino) carefully to understand how variables are sent to the AS5047 and the program flow. 
+As [CircularBuffer](https://github.com/CircularBuffer/AS5047P) points out, that code will probably work on a number of platforms. This works for me:
+
+* Review [main.ino](https://github.com/owhite/QS165_encoder/tree/main/FIRMWARE/encoder/src/main.ino) carefully to understand how variables are sent to the AS5047 and the program flow
 * Default variables for QS165 are set in main.ino, salt to taste if you have something else
-* Load code on teensy board
-* Connect teensy to encoder board using programming-dongle
-* Start serial terminal
+* Load code on teensy board using the platformio environment to install [code](https://github.com/owhite/QS165_encoder/tree/main/FIRMWARE/encoder)
+* Once programmed, connect teensy to encoder board using programming-dongle
+* Start up a serial terminal
 * While program is running, review the program is effectively communicating with the encoder board
 * Confirm you like the actual output of the pins on encoder board
 * Entering single characters into the serial input gets ready for the burn
 * Typing anything besides "x" shows you serial input is working
 * Enter "x" when youre ready to burn
+* main.ino will report "no errors received, test if burn complete" if it worked
 
 ## Programming hardware
 <img src="pics/dongle_probe.png" title="Encoder programmer with scope probe">
 
-An example of programming a prototype board with a teensy 3.6, ribbon cable and 6 pin connector. 
+An example of programming a earlier version of the encoder board with a teensy 3.6, ribbon cable and 6 pin connector. 
 
 <img src="pics/dongle_pogo.png" title="Encoder programmer with pogo pins">
 
 Pogo pins may be helpful for making quick connections to the board. 
 
-## Examples of other attempts to create an encoder
+## Final notes: some examples of other attempts to create an encoder
 ### **Attempt: AS5048 with line isolation [[LINK](AS5048_isolation/README.md)].**
 
 Note: was not bad, just sort of complicated to use SPI with ESC.
