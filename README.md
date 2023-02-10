@@ -20,6 +20,7 @@ On the other hand I'm not aware of a lot of alternatives.
 * Order and construct [this kicad board](AS5047_extburn/README.md)
 * Create the programming dongle shown below
 * Select between 3.3V versus 5V operation with solder jumper
+* Please note: using 5V on the 3.3V definitely kills the chip
 * Connect up up the finished PCB on the bench or motor
 * Confirm the initial outputs of the AS5047 with an oscilloscope
 
