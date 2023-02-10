@@ -1,6 +1,8 @@
 # QS165 motor magentic encoder with hall output
 
 <img src="pics/wave_form.png" title="phase plus encorder out">
+One scope probe (red) connected to "W" output of board, and another probe (yellow) is tied to the phase output of the QS165. The QS165 is turned by hand as described here: [[LINK](https://github.com/badgineer/MP2-ESC/blob/main/docs/MOTOR_PARAM.md)].
+
 <img src="pics/final_PCB.png" title="Encoder PCB">
 
 ## An encoder retrofit for the QS165 motor [[See this link](AS5048_extburn/README.md)].
@@ -60,6 +62,12 @@ An example of programming a earlier version of the encoder board with a teensy 3
 <img src="pics/dongle_pogo.png" title="Encoder programmer with pogo pins">
 
 Pogo pins may be helpful for making quick connections to the board. 
+
+## Shout out to my friends:
+* Need a nice open source motor controller? Try the [MP2](https://github.com/badgineer/MP2-ESC). 
+* Need some firmware to run on the motor controller? Try [MESC](https://github.com/davidmolony/MESC_Firmware). 
+* A discussion of the QS165 on [endless-sphere](https://endless-sphere.com/forums/viewtopic.php?p=1748544).
+* Two great sites for PCB or PCBA: [pcbway.com](https://www.pcbway.com/) and [jlcpcb.com](https://jlcpcb.com/).
 
 ## Final notes: some examples of other attempts to create an encoder
 ### **Attempt: AS5048 with line isolation [[LINK](AS5048_isolation/README.md)].**
