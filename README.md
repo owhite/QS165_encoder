@@ -2,6 +2,7 @@
 
 <img src="pics/wave_form.png" title="phase plus encorder out">
 One scope probe (red) connected to "W" output of board, and another probe (yellow) is tied to the phase output of the QS165. The QS165 is turned by hand as described here: 
+
 [LINK](https://github.com/badgineer/MP2-ESC/blob/main/docs/MOTOR_PARAM.md).
 
 
