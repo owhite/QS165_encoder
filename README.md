@@ -67,7 +67,7 @@ Pogo pins may be helpful for making quick connections to the board.
 * Need a nice open source motor controller? Try the [MP2](https://github.com/badgineer/MP2-ESC). 
 * Need some firmware to run on the motor controller? Try [MESC](https://github.com/davidmolony/MESC_Firmware). 
 * A discussion of the QS165 on [endless-sphere](https://endless-sphere.com/forums/viewtopic.php?p=1748544).
-* Two great sites for PCB or PCBA: [pcbway.com](https://www.pcbway.com/) and [jlcpcb.com](https://jlcpcb.com/).
+* Two great sites for PCB and PCBA: [pcbway.com](https://www.pcbway.com/) and [jlcpcb.com](https://jlcpcb.com/).
 
 ## Final notes: some examples of other attempts to create an encoder
 ### **Attempt: AS5048 with line isolation [[LINK](AS5048_isolation/README.md)].**
