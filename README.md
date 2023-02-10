@@ -50,6 +50,7 @@ Note: the QS165 has 7 polepairs, and according to the AS5047 docs you pass it a 
 * Typing anything besides "x" shows you serial input is working
 * Enter "x" when youre ready to burn
 * main.ino will report "no errors received, test if burn complete" if it worked
+* Once it is programmed, youre done, and the AS5047 will not let you burn again.
 
 ## Programming hardware
 <img src="pics/dongle_probe.png" title="Encoder programmer with scope probe">
